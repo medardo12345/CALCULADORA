@@ -7,6 +7,7 @@ public class CALCULADORA {
    int r;
    void sumar (){
        r = x+y;
+   }
    void restar(){
        if(x<y){
            int a;
