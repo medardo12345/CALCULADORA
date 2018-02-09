@@ -7,7 +7,7 @@ public class CALCULADORA {
    int r;
    void sumar (){
        r = x+y;
-   void retar (){
+   void restar(){
        if(x<y){
            int a;
            a=x;
@@ -16,6 +16,7 @@ public class CALCULADORA {
            if (x<0){
                x=-x;
                y=-y;
+               
            }
        }
        
