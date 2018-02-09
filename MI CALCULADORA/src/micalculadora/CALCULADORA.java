@@ -1,0 +1,24 @@
+package micalculadora;
+
+
+public class CALCULADORA {
+   int x;
+   int y;
+   int r;
+   void sumar (){
+       r = x+y;
+   void retar (){
+       if(x<y){
+           int a;
+           a=x;
+           x=y;
+           y=a;
+           if (x<0){
+               x=-x;
+               y=-y;
+           }
+       }
+       
+       
+   }
+}
